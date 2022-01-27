@@ -1,0 +1,9 @@
+﻿Procedure,order,trialFiles,OutBlockStim,ZooMap,mapDur
+Block1,1,stimuli/Trial1.csv,stimuli/MapKoala.bmp,,0
+Block2,2,stimuli/Trial2.csv,stimuli/MapKoala.bmp,stimuli/MapStop1_KoalaKove.bmp,1
+Block3,3,stimuli/Trial3.csv,stimuli/MapPanda.bmp,,0
+Block4,4,stimuli/Trial4.csv,stimuli/MapPanda.bmp,stimuli/MapStop2_Panda.bmp,1
+Block5,5,stimuli/Trial5.csv,stimuli/MapMonkey.bmp,,0
+Block6,6,stimuli/Trial6.csv,stimuli/MapMonkey.bmp,stimuli/MapStop3_Monkey.bmp,1
+Block7,7,stimuli/Trial7.csv,stimuli/MapKangaroo.bmp,stimuli/MapStop4_Kangaroo.bmp,1
+Block8,8,stimuli/Trial8.csv,,stimuli/MapStop5_ZooExit.bmp,1

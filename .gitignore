@@ -1,0 +1,13 @@
+# random folders
+tmp/
+code/
+src/
+old/
+data/
+
+# other
+venv/
+.idea/
+~*
+*.zip
+ZooGame_K01v6_750_ms_Stim_lastrun.py
