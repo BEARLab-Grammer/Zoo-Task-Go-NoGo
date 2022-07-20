@@ -7,7 +7,7 @@
     <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
     <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
-    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '01', 'eeg': 'True'}" valType="code"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '01', 'eeg': 'False'}" valType="code"/>
     <Param name="Force stereo" updates="None" val="True" valType="bool"/>
     <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
     <Param name="HTML path" updates="None" val="" valType="str"/>
@@ -430,7 +430,7 @@
       <CodeComponent name="cpuinfo">
         <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="win.mouseVisible = False" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="document.body.style.cursor='none';&amp;#10;&amp;#10;var sUsrAg;&amp;#10;var nIdx;&amp;#10;function getBrowserId () {&amp;#10; var browsers = [&quot;MSIE&quot;, &quot;Firefox&quot;, &quot;Safari&quot;, &quot;Chrome&quot;, &quot;Opera&quot;];&amp;#10; sUsrAg = window.navigator.userAgent,&amp;#10; nIdx = browsers.length - 1;&amp;#10; for (nIdx; nIdx &gt; -1 &amp;&amp; sUsrAg.indexOf(browsers [nIdx]) === -1; nIdx--);&amp;#10; &amp;#10;  return browsers[nIdx];&amp;#10;}&amp;#10;// save cpu &amp; browser information&amp;#10;thisExp=psychoJS.experiment;&amp;#10;expInfo['OS'] = window.navigator.platform;&amp;#10;expInfo['browser'] = getBrowserId();&amp;#10;expInfo['xResolution'] = screen.width;&amp;#10;expInfo['yResolution'] = screen.height;&amp;#10;" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="wmsg1=&quot;This is Zookeeper Melissa.\nShe needs your help!\nPlease press the [ENTER] key to proceed.&quot;" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="wmsg1='This is Zookeeper Melissa.\nShe needs your help!'" valType="extendedCode"/>

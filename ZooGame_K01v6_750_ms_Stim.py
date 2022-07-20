@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on April 14, 2022, at 02:49
+    on July 20, 2022, at 12:27
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -41,7 +41,7 @@ os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '2020.2.10'
 expName = 'ZooGame_K01v6_750 ms Stim'  # from the Builder filename that created this script
-expInfo = {'participant': '', 'session': '01', 'eeg': True}
+expInfo = {'participant': '', 'session': '01', 'eeg': False}
 dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
 if dlg.OK == False:
     core.quit()  # user pressed cancel
@@ -55,7 +55,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\jpdiaz\\Documents\\psychophysics\\PsychoPy\\Go-NoGo-Zoo-Task\\ZooGame_K01v6_750_ms_Stim.py',
+    originPath='C:\\Users\\jpdiaz\\Documents\\psychophysics\\PsychoPy\\Go-NoGo-Zoo-Task - Public\\ZooGame_K01v6_750_ms_Stim.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -86,6 +86,7 @@ defaultKeyboard = keyboard.Keyboard()
 
 # Initialize components for Routine "Welcome1"
 Welcome1Clock = core.Clock()
+win.mouseVisible = False
 text = visual.TextStim(win=win, name='text',
     text='Welcome to the Zoo!',
     font='Arial',
