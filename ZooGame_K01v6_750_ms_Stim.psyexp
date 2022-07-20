@@ -30,7 +30,7 @@
     <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
     <Param name="expName" updates="None" val="ZooGame_K01v6_750 ms Stim" valType="str"/>
     <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
-    <Param name="logging level" updates="None" val="info" valType="code"/>
+    <Param name="logging level" updates="None" val="error" valType="code"/>
   </Settings>
   <Routines>
     <Routine name="OrangFam">
@@ -430,7 +430,7 @@
       <CodeComponent name="cpuinfo">
         <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Experiment" updates="constant" val="win.mouseVisible = False" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="document.body.style.cursor='none';&amp;#10;&amp;#10;var sUsrAg;&amp;#10;var nIdx;&amp;#10;function getBrowserId () {&amp;#10; var browsers = [&quot;MSIE&quot;, &quot;Firefox&quot;, &quot;Safari&quot;, &quot;Chrome&quot;, &quot;Opera&quot;];&amp;#10; sUsrAg = window.navigator.userAgent,&amp;#10; nIdx = browsers.length - 1;&amp;#10; for (nIdx; nIdx &gt; -1 &amp;&amp; sUsrAg.indexOf(browsers [nIdx]) === -1; nIdx--);&amp;#10; &amp;#10;  return browsers[nIdx];&amp;#10;}&amp;#10;// save cpu &amp; browser information&amp;#10;thisExp=psychoJS.experiment;&amp;#10;expInfo['OS'] = window.navigator.platform;&amp;#10;expInfo['browser'] = getBrowserId();&amp;#10;expInfo['xResolution'] = screen.width;&amp;#10;expInfo['yResolution'] = screen.height;&amp;#10;" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="wmsg1=&quot;This is Zookeeper Melissa.\nShe needs your help!\nPlease press the [ENTER] key to proceed.&quot;" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="wmsg1='This is Zookeeper Melissa.\nShe needs your help!'" valType="extendedCode"/>
@@ -552,8 +552,8 @@
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End JS Routine" updates="constant" val="// count number of nogos &amp; correct responses&amp;#10;if ((gonogo === 102)) {&amp;#10;    numnogo = (numnogo + 1);&amp;#10;    if (((key_resp.corr) || (key_resp.keys === correctKey))) {&amp;#10;        accnogo = (accnogo + 1);&amp;#10;    }&amp;#10;}&amp;#10;thisExp.addData(&quot;numnogo&quot;, numnogo);&amp;#10;thisExp.addData(&quot;accnogo&quot;, accnogo);" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="# count number of nogos&amp;#10;if gonogo == 102:&amp;#10;    numnogo=numnogo+1&amp;#10;    # count number of correct&amp;#10;    if key_resp.corr:&amp;#10;        accnogo=accnogo+1&amp;#10;        &amp;#10;thisExp.addData('numnogo', numnogo)&amp;#10;thisExp.addData('accnogo', accnogo)" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="// count number of nogos &amp; correct responses&amp;#10;if ((gonogo === 102)) {&amp;#10;    numnogo = (numnogo + 1);&amp;#10;    if (((key_resp.corr) || (key_resp.keys === correctKey))) {&amp;#10;        accnogo = (accnogo + 1);&amp;#10;    }&amp;#10;}&amp;#10;thisExp.addData(&quot;key_resp_rt&quot;, key_resp.rt)&amp;#10;thisExp.addData(&quot;key_resp_corr&quot;, key_resp.corr)&amp;#10;thisExp.addData(&quot;numnogo&quot;, numnogo);&amp;#10;thisExp.addData(&quot;accnogo&quot;, accnogo);" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="# count number of nogos&amp;#10;if gonogo == 102:&amp;#10;    numnogo=numnogo+1&amp;#10;    # count number of correct&amp;#10;    if key_resp.corr:&amp;#10;        accnogo=accnogo+1&amp;#10;&amp;#10;thisExp.addData('key_resp_rt', key_resp.rt)&amp;#10;thisExp.addData('key_resp_corr', key_resp.corr)&amp;#10;thisExp.addData('numnogo', numnogo)&amp;#10;thisExp.addData('accnogo', accnogo)" valType="extendedCode"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="code_correctKey" valType="code"/>
       </CodeComponent>
@@ -702,7 +702,7 @@
         <Param name="color" updates="constant" val="white" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="contrast" updates="constant" val="1" valType="num"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
         <Param name="durationEstim" updates="None" val="1" valType="code"/>
         <Param name="flip" updates="constant" val="" valType="str"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
@@ -1038,7 +1038,7 @@
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
         <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
@@ -1116,7 +1116,7 @@
         <Param name="color" updates="constant" val="white" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="contrast" updates="constant" val="1" valType="num"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
         <Param name="durationEstim" updates="None" val="1" valType="code"/>
         <Param name="flip" updates="constant" val="" valType="str"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
@@ -1705,7 +1705,7 @@
         <Param name="durationEstim" updates="None" val="1" valType="code"/>
         <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
         <Param name="name" updates="None" val="key_resp_13" valType="code"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
@@ -1736,9 +1736,9 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="set every repeat" val="Congratulations! All of the animals are back in their cages! You did a great job!" valType="extendedStr"/>
+        <Param name="text" updates="set every repeat" val="Congratulations! All of the animals are back in their cages! You did a great job!&amp;#10;&amp;#10;Please wait while we save the results..." valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="1.8" valType="code"/>
       </TextComponent>
@@ -1755,7 +1755,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
         <Param name="store" updates="constant" val="nothing" valType="str"/>
         <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
@@ -1807,15 +1807,52 @@
       </KeyboardComponent>
     </Routine>
     <Routine name="blankWindow">
+      <CodeComponent name="code_responsewindow">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="if (response_window.keys) {&amp;#10;    thisExp.addData(&quot;key_resp_rt&quot;, (response_window.rt + 0.75));&amp;#10;    thisExp.addData(&quot;key_resp_corr&quot;, response_window.corr);&amp;#10;    if ((gonogo === 102)) {&amp;#10;        accnogo = (accnogo - 1);&amp;#10;        thisExp.addData(&quot;accnogo&quot;, accnogo);&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if response_window.keys:&amp;#10;    thisExp.addData('key_resp_rt', (response_window.rt+0.75))&amp;#10;    thisExp.addData('key_resp_corr', response_window.corr)&amp;#10;    # remove accnogo if button pressed&amp;#10;    if gonogo == 102:&amp;#10;        accnogo=accnogo-1&amp;#10;        thisExp.addData('accnogo', accnogo)&amp;#10;" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_responsewindow" valType="code"/>
+      </CodeComponent>
       <KeyboardComponent name="response_window">
         <Param name="allowedKeys" updates="constant" val="'1','5','space'" valType="code"/>
-        <Param name="correctAns" updates="constant" val="$pcorrectKey" valType="str"/>
+        <Param name="correctAns" updates="constant" val="$correctKey" valType="str"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="discard previous" updates="constant" val="True" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
         <Param name="name" updates="None" val="response_window" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
+        <Param name="store" updates="constant" val="first key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="practiceWindow">
+      <KeyboardComponent name="practice_window">
+        <Param name="allowedKeys" updates="constant" val="'1','5','space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="practice_window" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
@@ -1850,7 +1887,7 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="Prac"/>
-    <Routine name="blankWindow"/>
+    <Routine name="practiceWindow"/>
     <LoopTerminator name="Practice"/>
     <Routine name="PracticeOut"/>
     <Routine name="ZooMap1"/>

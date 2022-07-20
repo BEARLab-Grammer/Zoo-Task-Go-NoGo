@@ -100,284 +100,284 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'stimuli/Turtle1.bmp', 'path': 'stimuli/Turtle1.bmp'},
-    {'name': 'stimuli/Manul2.bmp', 'path': 'stimuli/Manul2.bmp'},
-    {'name': 'stimuli/Squirrel5.bmp', 'path': 'stimuli/Squirrel5.bmp'},
-    {'name': 'stimuli/Giraffe8.bmp', 'path': 'stimuli/Giraffe8.bmp'},
-    {'name': 'stimuli/Bear3.bmp', 'path': 'stimuli/Bear3.bmp'},
-    {'name': 'stimuli/Trial3.csv', 'path': 'stimuli/Trial3.csv'},
-    {'name': 'stimuli/Kangaroo4.bmp', 'path': 'stimuli/Kangaroo4.bmp'},
-    {'name': 'stimuli/MapKangaroo.bmp', 'path': 'stimuli/MapKangaroo.bmp'},
-    {'name': 'stimuli/Monkey7.bmp', 'path': 'stimuli/Monkey7.bmp'},
-    {'name': 'stimuli/Kudu2.bmp', 'path': 'stimuli/Kudu2.bmp'},
-    {'name': 'stimuli/Lemur4.bmp', 'path': 'stimuli/Lemur4.bmp'},
-    {'name': 'stimuli/Kudu1.bmp', 'path': 'stimuli/Kudu1.bmp'},
-    {'name': 'stimuli/Gorilla1.bmp', 'path': 'stimuli/Gorilla1.bmp'},
-    {'name': 'stimuli/Seal1.bmp', 'path': 'stimuli/Seal1.bmp'},
-    {'name': 'stimuli/Kangaroo3.bmp', 'path': 'stimuli/Kangaroo3.bmp'},
-    {'name': 'stimuli/Trial6.csv', 'path': 'stimuli/Trial6.csv'},
-    {'name': 'stimuli/Tortoise1.bmp', 'path': 'stimuli/Tortoise1.bmp'},
-    {'name': 'stimuli/Rhino7.bmp', 'path': 'stimuli/Rhino7.bmp'},
-    {'name': 'stimuli/Squirrel4.bmp', 'path': 'stimuli/Squirrel4.bmp'},
-    {'name': 'stimuli/Rodent2.bmp', 'path': 'stimuli/Rodent2.bmp'},
-    {'name': 'stimuli/Ostrich1.bmp', 'path': 'stimuli/Ostrich1.bmp'},
-    {'name': 'stimuli/Zebra4.bmp', 'path': 'stimuli/Zebra4.bmp'},
-    {'name': 'stimuli/Cheetah1.bmp', 'path': 'stimuli/Cheetah1.bmp'},
-    {'name': 'stimuli/Nilgila2.bmp', 'path': 'stimuli/Nilgila2.bmp'},
-    {'name': 'stimuli/PolarBear2.bmp', 'path': 'stimuli/PolarBear2.bmp'},
-    {'name': 'stimuli/Guar1.bmp', 'path': 'stimuli/Guar1.bmp'},
-    {'name': 'stimuli/Elephant6.bmp', 'path': 'stimuli/Elephant6.bmp'},
-    {'name': 'stimuli/Leopard3.bmp', 'path': 'stimuli/Leopard3.bmp'},
-    {'name': 'stimuli/Monkey2.bmp', 'path': 'stimuli/Monkey2.bmp'},
-    {'name': 'stimuli/Creature3.bmp', 'path': 'stimuli/Creature3.bmp'},
-    {'name': 'stimuli/PrarieDog1.bmp', 'path': 'stimuli/PrarieDog1.bmp'},
-    {'name': 'stimuli/Deer3.bmp', 'path': 'stimuli/Deer3.bmp'},
-    {'name': 'stimuli/Rhino1.bmp', 'path': 'stimuli/Rhino1.bmp'},
-    {'name': 'stimuli/Elephant7.bmp', 'path': 'stimuli/Elephant7.bmp'},
-    {'name': 'stimuli/Lizard4.bmp', 'path': 'stimuli/Lizard4.bmp'},
-    {'name': 'stimuli/WhiteLion1.bmp', 'path': 'stimuli/WhiteLion1.bmp'},
-    {'name': 'stimuli/MapStop_Start1.bmp', 'path': 'stimuli/MapStop_Start1.bmp'},
-    {'name': 'stimuli/Elephant1.bmp', 'path': 'stimuli/Elephant1.bmp'},
-    {'name': 'stimuli/Okapi3.bmp', 'path': 'stimuli/Okapi3.bmp'},
-    {'name': 'stimuli/Elephant4.bmp', 'path': 'stimuli/Elephant4.bmp'},
-    {'name': 'stimuli/Fox3.bmp', 'path': 'stimuli/Fox3.bmp'},
-    {'name': 'stimuli/Lynx1.bmp', 'path': 'stimuli/Lynx1.bmp'},
-    {'name': 'stimuli/Duiker1.bmp', 'path': 'stimuli/Duiker1.bmp'},
-    {'name': 'stimuli/Flamingo5.bmp', 'path': 'stimuli/Flamingo5.bmp'},
-    {'name': 'stimuli/Bear8.bmp', 'path': 'stimuli/Bear8.bmp'},
-    {'name': 'stimuli/Meerkat1.bmp', 'path': 'stimuli/Meerkat1.bmp'},
-    {'name': 'stimuli/Giraffe10.bmp', 'path': 'stimuli/Giraffe10.bmp'},
-    {'name': 'stimuli/Panda12.bmp', 'path': 'stimuli/Panda12.bmp'},
-    {'name': 'stimuli/Panda10.bmp', 'path': 'stimuli/Panda10.bmp'},
-    {'name': 'stimuli/Lechwe1.bmp', 'path': 'stimuli/Lechwe1.bmp'},
-    {'name': 'stimuli/Deer2.bmp', 'path': 'stimuli/Deer2.bmp'},
-    {'name': 'stimuli/Cow1.bmp', 'path': 'stimuli/Cow1.bmp'},
-    {'name': 'stimuli/Bear5.bmp', 'path': 'stimuli/Bear5.bmp'},
-    {'name': 'stimuli/Bird8.bmp', 'path': 'stimuli/Bird8.bmp'},
-    {'name': 'stimuli/Buffalo2.bmp', 'path': 'stimuli/Buffalo2.bmp'},
-    {'name': 'stimuli/Lion8.bmp', 'path': 'stimuli/Lion8.bmp'},
-    {'name': 'stimuli/Lemur1.bmp', 'path': 'stimuli/Lemur1.bmp'},
-    {'name': 'stimuli/Bateng1.bmp', 'path': 'stimuli/Bateng1.bmp'},
-    {'name': 'stimuli/Monkey3.bmp', 'path': 'stimuli/Monkey3.bmp'},
-    {'name': 'stimuli/Rhino10.bmp', 'path': 'stimuli/Rhino10.bmp'},
-    {'name': 'stimuli/BlockList.csv', 'path': 'stimuli/BlockList.csv'},
-    {'name': 'stimuli/Bear4.bmp', 'path': 'stimuli/Bear4.bmp'},
-    {'name': 'stimuli/Lion5.bmp', 'path': 'stimuli/Lion5.bmp'},
     {'name': 'stimuli/RedPanda1.bmp', 'path': 'stimuli/RedPanda1.bmp'},
-    {'name': 'stimuli/Lion9.bmp', 'path': 'stimuli/Lion9.bmp'},
-    {'name': 'stimuli/Sable1.bmp', 'path': 'stimuli/Sable1.bmp'},
-    {'name': 'stimuli/Creature1.bmp', 'path': 'stimuli/Creature1.bmp'},
-    {'name': 'stimuli/Lion2.bmp', 'path': 'stimuli/Lion2.bmp'},
-    {'name': 'stimuli/Mouse1.bmp', 'path': 'stimuli/Mouse1.bmp'},
-    {'name': 'stimuli/Rhino9.bmp', 'path': 'stimuli/Rhino9.bmp'},
     {'name': 'stimuli/Lizard2.bmp', 'path': 'stimuli/Lizard2.bmp'},
-    {'name': 'stimuli/WhiteTiger1.bmp', 'path': 'stimuli/WhiteTiger1.bmp'},
-    {'name': 'stimuli/Rabbit1.bmp', 'path': 'stimuli/Rabbit1.bmp'},
-    {'name': 'stimuli/RedPanda3.bmp', 'path': 'stimuli/RedPanda3.bmp'},
-    {'name': 'stimuli/Gazelle2.bmp', 'path': 'stimuli/Gazelle2.bmp'},
-    {'name': 'stimuli/Peacock1.bmp', 'path': 'stimuli/Peacock1.bmp'},
-    {'name': 'stimuli/RedPanda4.bmp', 'path': 'stimuli/RedPanda4.bmp'},
-    {'name': 'stimuli/Flamingo1.bmp', 'path': 'stimuli/Flamingo1.bmp'},
-    {'name': 'stimuli/Koala2.bmp', 'path': 'stimuli/Koala2.bmp'},
-    {'name': 'stimuli/Fox1.bmp', 'path': 'stimuli/Fox1.bmp'},
-    {'name': 'stimuli/MapStop5_ZooExit.bmp', 'path': 'stimuli/MapStop5_ZooExit.bmp'},
-    {'name': 'stimuli/Squirrel10.bmp', 'path': 'stimuli/Squirrel10.bmp'},
-    {'name': 'stimuli/Lizard1.bmp', 'path': 'stimuli/Lizard1.bmp'},
-    {'name': 'stimuli/Leopard10.bmp', 'path': 'stimuli/Leopard10.bmp'},
-    {'name': 'stimuli/Tiger3.bmp', 'path': 'stimuli/Tiger3.bmp'},
-    {'name': 'stimuli/Trial8.csv', 'path': 'stimuli/Trial8.csv'},
-    {'name': 'stimuli/Anoa1.bmp', 'path': 'stimuli/Anoa1.bmp'},
-    {'name': 'stimuli/Trial5.csv', 'path': 'stimuli/Trial5.csv'},
-    {'name': 'stimuli/MapStop4_Kangaroo.bmp', 'path': 'stimuli/MapStop4_Kangaroo.bmp'},
-    {'name': 'stimuli/Kangaroo5.bmp', 'path': 'stimuli/Kangaroo5.bmp'},
-    {'name': 'stimuli/RedPanda8.bmp', 'path': 'stimuli/RedPanda8.bmp'},
-    {'name': 'stimuli/RedPanda6.bmp', 'path': 'stimuli/RedPanda6.bmp'},
-    {'name': 'stimuli/PolarBear3.bmp', 'path': 'stimuli/PolarBear3.bmp'},
-    {'name': 'stimuli/Creature10.bmp', 'path': 'stimuli/Creature10.bmp'},
-    {'name': 'stimuli/Goat2.bmp', 'path': 'stimuli/Goat2.bmp'},
-    {'name': 'stimuli/Bongo1.bmp', 'path': 'stimuli/Bongo1.bmp'},
-    {'name': 'stimuli/Koala5.bmp', 'path': 'stimuli/Koala5.bmp'},
-    {'name': 'stimuli/Fox4.bmp', 'path': 'stimuli/Fox4.bmp'},
-    {'name': 'stimuli/Gemsbok1.bmp', 'path': 'stimuli/Gemsbok1.bmp'},
-    {'name': 'stimuli/Bear2.bmp', 'path': 'stimuli/Bear2.bmp'},
-    {'name': 'stimuli/RedPanda13.bmp', 'path': 'stimuli/RedPanda13.bmp'},
-    {'name': 'stimuli/Bird6.bmp', 'path': 'stimuli/Bird6.bmp'},
-    {'name': 'stimuli/Lioness1.bmp', 'path': 'stimuli/Lioness1.bmp'},
-    {'name': 'stimuli/Rhino6.bmp', 'path': 'stimuli/Rhino6.bmp'},
-    {'name': 'stimuli/Flamingo4.bmp', 'path': 'stimuli/Flamingo4.bmp'},
-    {'name': 'stimuli/Sloth2.bmp', 'path': 'stimuli/Sloth2.bmp'},
-    {'name': 'stimuli/Addax1.bmp', 'path': 'stimuli/Addax1.bmp'},
-    {'name': 'stimuli/RedPanda12.bmp', 'path': 'stimuli/RedPanda12.bmp'},
-    {'name': 'stimuli/Squirrel2.bmp', 'path': 'stimuli/Squirrel2.bmp'},
-    {'name': 'stimuli/Antelope1.bmp', 'path': 'stimuli/Antelope1.bmp'},
-    {'name': 'stimuli/Ibis2.bmp', 'path': 'stimuli/Ibis2.bmp'},
-    {'name': 'stimuli/Llama2.bmp', 'path': 'stimuli/Llama2.bmp'},
-    {'name': 'stimuli/Okapi5.bmp', 'path': 'stimuli/Okapi5.bmp'},
-    {'name': 'stimuli/Kangaroo6.bmp', 'path': 'stimuli/Kangaroo6.bmp'},
-    {'name': 'stimuli/Elephant3.bmp', 'path': 'stimuli/Elephant3.bmp'},
-    {'name': 'stimuli/Lizard3.bmp', 'path': 'stimuli/Lizard3.bmp'},
-    {'name': 'stimuli/Gorilla3.bmp', 'path': 'stimuli/Gorilla3.bmp'},
-    {'name': 'stimuli/Snowcat1.bmp', 'path': 'stimuli/Snowcat1.bmp'},
-    {'name': 'stimuli/Elk1.bmp', 'path': 'stimuli/Elk1.bmp'},
-    {'name': 'stimuli/Gorilla2.bmp', 'path': 'stimuli/Gorilla2.bmp'},
-    {'name': 'stimuli/Meerkat21.bmp', 'path': 'stimuli/Meerkat21.bmp'},
-    {'name': 'stimuli/DikDik1.bmp', 'path': 'stimuli/DikDik1.bmp'},
-    {'name': 'stimuli/RedPanda27.bmp', 'path': 'stimuli/RedPanda27.bmp'},
-    {'name': 'stimuli/Cow2.bmp', 'path': 'stimuli/Cow2.bmp'},
-    {'name': 'stimuli/Buffalo3.bmp', 'path': 'stimuli/Buffalo3.bmp'},
-    {'name': 'stimuli/Lion3.bmp', 'path': 'stimuli/Lion3.bmp'},
-    {'name': 'stimuli/Meerkat4.bmp', 'path': 'stimuli/Meerkat4.bmp'},
-    {'name': 'stimuli/Trial1.csv', 'path': 'stimuli/Trial1.csv'},
-    {'name': 'stimuli/Meerkat6.bmp', 'path': 'stimuli/Meerkat6.bmp'},
-    {'name': 'stimuli/Meerkat5.bmp', 'path': 'stimuli/Meerkat5.bmp'},
-    {'name': 'stimuli/Onager1.bmp', 'path': 'stimuli/Onager1.bmp'},
-    {'name': 'stimuli/Orang2.bmp', 'path': 'stimuli/Orang2.bmp'},
-    {'name': 'stimuli/RedPanda2.bmp', 'path': 'stimuli/RedPanda2.bmp'},
-    {'name': 'stimuli/Impala1.bmp', 'path': 'stimuli/Impala1.bmp'},
-    {'name': 'stimuli/Giraffe1.bmp', 'path': 'stimuli/Giraffe1.bmp'},
-    {'name': 'stimuli/Lion1.bmp', 'path': 'stimuli/Lion1.bmp'},
-    {'name': 'stimuli/RedPanda14.bmp', 'path': 'stimuli/RedPanda14.bmp'},
-    {'name': 'stimuli/Llama1.bmp', 'path': 'stimuli/Llama1.bmp'},
-    {'name': 'stimuli/Rhino3.bmp', 'path': 'stimuli/Rhino3.bmp'},
-    {'name': 'stimuli/Lion10.bmp', 'path': 'stimuli/Lion10.bmp'},
-    {'name': 'stimuli/Practice.csv', 'path': 'stimuli/Practice.csv'},
-    {'name': 'stimuli/Elephant5.bmp', 'path': 'stimuli/Elephant5.bmp'},
-    {'name': 'stimuli/Lemur3.bmp', 'path': 'stimuli/Lemur3.bmp'},
-    {'name': 'stimuli/Tamarin10.bmp', 'path': 'stimuli/Tamarin10.bmp'},
-    {'name': 'stimuli/Creature4.bmp', 'path': 'stimuli/Creature4.bmp'},
-    {'name': 'stimuli/Orynx2.bmp', 'path': 'stimuli/Orynx2.bmp'},
-    {'name': 'stimuli/Waterbuck3.bmp', 'path': 'stimuli/Waterbuck3.bmp'},
-    {'name': 'stimuli/RedPanda26.bmp', 'path': 'stimuli/RedPanda26.bmp'},
-    {'name': 'stimuli/Racoon1.bmp', 'path': 'stimuli/Racoon1.bmp'},
-    {'name': 'stimuli/Squirrel3.bmp', 'path': 'stimuli/Squirrel3.bmp'},
-    {'name': 'stimuli/Trial2.csv', 'path': 'stimuli/Trial2.csv'},
-    {'name': 'stimuli/SeaLion1.bmp', 'path': 'stimuli/SeaLion1.bmp'},
-    {'name': 'stimuli/Iguana5.bmp', 'path': 'stimuli/Iguana5.bmp'},
-    {'name': 'stimuli/WildDog1.bmp', 'path': 'stimuli/WildDog1.bmp'},
-    {'name': 'stimuli/Rhino12.bmp', 'path': 'stimuli/Rhino12.bmp'},
-    {'name': 'stimuli/Fox11.bmp', 'path': 'stimuli/Fox11.bmp'},
-    {'name': 'stimuli/Orang1.bmp', 'path': 'stimuli/Orang1.bmp'},
-    {'name': 'stimuli/MapMonkey.bmp', 'path': 'stimuli/MapMonkey.bmp'},
-    {'name': 'stimuli/Elephant8.bmp', 'path': 'stimuli/Elephant8.bmp'},
-    {'name': 'stimuli/RedPanda17.bmp', 'path': 'stimuli/RedPanda17.bmp'},
-    {'name': 'stimuli/Peacock2.bmp', 'path': 'stimuli/Peacock2.bmp'},
-    {'name': 'stimuli/Zebra2.bmp', 'path': 'stimuli/Zebra2.bmp'},
-    {'name': 'stimuli/Leopard13.bmp', 'path': 'stimuli/Leopard13.bmp'},
-    {'name': 'stimuli/MapKoala.bmp', 'path': 'stimuli/MapKoala.bmp'},
-    {'name': 'stimuli/Panda2.bmp', 'path': 'stimuli/Panda2.bmp'},
-    {'name': 'stimuli/Trial7.csv', 'path': 'stimuli/Trial7.csv'},
-    {'name': 'stimuli/Fox10.bmp', 'path': 'stimuli/Fox10.bmp'},
-    {'name': 'stimuli/Elephant15.bmp', 'path': 'stimuli/Elephant15.bmp'},
-    {'name': 'stimuli/Trial4.csv', 'path': 'stimuli/Trial4.csv'},
-    {'name': 'stimuli/Elephant9.bmp', 'path': 'stimuli/Elephant9.bmp'},
-    {'name': 'stimuli/Panda3.bmp', 'path': 'stimuli/Panda3.bmp'},
-    {'name': 'stimuli/Rhino4.bmp', 'path': 'stimuli/Rhino4.bmp'},
-    {'name': 'stimuli/SlothBear1.bmp', 'path': 'stimuli/SlothBear1.bmp'},
-    {'name': 'stimuli/Kangaroo2.bmp', 'path': 'stimuli/Kangaroo2.bmp'},
-    {'name': 'stimuli/Bird7.bmp', 'path': 'stimuli/Bird7.bmp'},
-    {'name': 'stimuli/Rhino5.bmp', 'path': 'stimuli/Rhino5.bmp'},
-    {'name': 'stimuli/Puma1.bmp', 'path': 'stimuli/Puma1.bmp'},
-    {'name': 'stimuli/Panda11.bmp', 'path': 'stimuli/Panda11.bmp'},
-    {'name': 'stimuli/Giraffe7.bmp', 'path': 'stimuli/Giraffe7.bmp'},
-    {'name': 'stimuli/Giraffe9.bmp', 'path': 'stimuli/Giraffe9.bmp'},
-    {'name': 'stimuli/Cheetah4.bmp', 'path': 'stimuli/Cheetah4.bmp'},
-    {'name': 'stimuli/Lemur6.bmp', 'path': 'stimuli/Lemur6.bmp'},
-    {'name': 'stimuli/Orynx1.bmp', 'path': 'stimuli/Orynx1.bmp'},
-    {'name': 'stimuli/Zookeeper1.bmp', 'path': 'stimuli/Zookeeper1.bmp'},
-    {'name': 'stimuli/Okapi1.bmp', 'path': 'stimuli/Okapi1.bmp'},
-    {'name': 'stimuli/Buffalo1.bmp', 'path': 'stimuli/Buffalo1.bmp'},
-    {'name': 'stimuli/MapStop2_Panda.bmp', 'path': 'stimuli/MapStop2_Panda.bmp'},
-    {'name': 'stimuli/Moose1.bmp', 'path': 'stimuli/Moose1.bmp'},
-    {'name': 'stimuli/Panda4.bmp', 'path': 'stimuli/Panda4.bmp'},
-    {'name': 'stimuli/Bongo5.bmp', 'path': 'stimuli/Bongo5.bmp'},
-    {'name': 'stimuli/Bear1.bmp', 'path': 'stimuli/Bear1.bmp'},
-    {'name': 'stimuli/Koala11.bmp', 'path': 'stimuli/Koala11.bmp'},
-    {'name': 'stimuli/Toucan1.bmp', 'path': 'stimuli/Toucan1.bmp'},
-    {'name': 'stimuli/RedPanda19.bmp', 'path': 'stimuli/RedPanda19.bmp'},
-    {'name': 'stimuli/Bird5.bmp', 'path': 'stimuli/Bird5.bmp'},
-    {'name': 'stimuli/MapPanda.bmp', 'path': 'stimuli/MapPanda.bmp'},
-    {'name': 'stimuli/MapFriends.bmp', 'path': 'stimuli/MapFriends.bmp'},
-    {'name': 'stimuli/Koala8.bmp', 'path': 'stimuli/Koala8.bmp'},
-    {'name': 'stimuli/Penguin5.bmp', 'path': 'stimuli/Penguin5.bmp'},
-    {'name': 'stimuli/Meerkat20.bmp', 'path': 'stimuli/Meerkat20.bmp'},
-    {'name': 'stimuli/PrarieDog2.bmp', 'path': 'stimuli/PrarieDog2.bmp'},
-    {'name': 'stimuli/Eland1.bmp', 'path': 'stimuli/Eland1.bmp'},
-    {'name': 'stimuli/Rodent5.bmp', 'path': 'stimuli/Rodent5.bmp'},
-    {'name': 'stimuli/Parrot10.bmp', 'path': 'stimuli/Parrot10.bmp'},
-    {'name': 'stimuli/Gazelle1.bmp', 'path': 'stimuli/Gazelle1.bmp'},
-    {'name': 'stimuli/Hyena2.bmp', 'path': 'stimuli/Hyena2.bmp'},
-    {'name': 'stimuli/Emu2.bmp', 'path': 'stimuli/Emu2.bmp'},
-    {'name': 'stimuli/Squirrel1.bmp', 'path': 'stimuli/Squirrel1.bmp'},
-    {'name': 'stimuli/Kangaroo1.bmp', 'path': 'stimuli/Kangaroo1.bmp'},
-    {'name': 'stimuli/Dingo1.bmp', 'path': 'stimuli/Dingo1.bmp'},
-    {'name': 'stimuli/Meerkat3.bmp', 'path': 'stimuli/Meerkat3.bmp'},
-    {'name': 'stimuli/Cheetah2.bmp', 'path': 'stimuli/Cheetah2.bmp'},
-    {'name': 'stimuli/Giraffe5.bmp', 'path': 'stimuli/Giraffe5.bmp'},
     {'name': 'stimuli/Bird9.bmp', 'path': 'stimuli/Bird9.bmp'},
-    {'name': 'stimuli/Rodent1.bmp', 'path': 'stimuli/Rodent1.bmp'},
-    {'name': 'stimuli/Tiger10.bmp', 'path': 'stimuli/Tiger10.bmp'},
-    {'name': 'stimuli/MapStop1_KoalaKove.bmp', 'path': 'stimuli/MapStop1_KoalaKove.bmp'},
-    {'name': 'stimuli/Hippo1.bmp', 'path': 'stimuli/Hippo1.bmp'},
-    {'name': 'stimuli/Lemur2.bmp', 'path': 'stimuli/Lemur2.bmp'},
-    {'name': 'stimuli/Monkey6.bmp', 'path': 'stimuli/Monkey6.bmp'},
-    {'name': 'stimuli/Bird2.bmp', 'path': 'stimuli/Bird2.bmp'},
-    {'name': 'stimuli/Giraffe4.bmp', 'path': 'stimuli/Giraffe4.bmp'},
-    {'name': 'stimuli/Zebra1.bmp', 'path': 'stimuli/Zebra1.bmp'},
-    {'name': 'stimuli/Impala2.bmp', 'path': 'stimuli/Impala2.bmp'},
-    {'name': 'stimuli/RedPanda10.bmp', 'path': 'stimuli/RedPanda10.bmp'},
-    {'name': 'stimuli/Ostrich2.bmp', 'path': 'stimuli/Ostrich2.bmp'},
-    {'name': 'stimuli/PolarBear1.bmp', 'path': 'stimuli/PolarBear1.bmp'},
-    {'name': 'stimuli/Wolf4.bmp', 'path': 'stimuli/Wolf4.bmp'},
-    {'name': 'stimuli/Leopard2.bmp', 'path': 'stimuli/Leopard2.bmp'},
-    {'name': 'stimuli/RedPanda20.bmp', 'path': 'stimuli/RedPanda20.bmp'},
-    {'name': 'stimuli/RedPanda25.bmp', 'path': 'stimuli/RedPanda25.bmp'},
-    {'name': 'stimuli/Peacock3.bmp', 'path': 'stimuli/Peacock3.bmp'},
-    {'name': 'stimuli/Caracal1.bmp', 'path': 'stimuli/Caracal1.bmp'},
-    {'name': 'stimuli/Nagila1.bmp', 'path': 'stimuli/Nagila1.bmp'},
-    {'name': 'stimuli/Cougar2.bmp', 'path': 'stimuli/Cougar2.bmp'},
-    {'name': 'stimuli/Sloth1.bmp', 'path': 'stimuli/Sloth1.bmp'},
-    {'name': 'stimuli/Kangaroo7.bmp', 'path': 'stimuli/Kangaroo7.bmp'},
-    {'name': 'stimuli/ArcticFox1.bmp', 'path': 'stimuli/ArcticFox1.bmp'},
-    {'name': 'stimuli/Puffin1.bmp', 'path': 'stimuli/Puffin1.bmp'},
-    {'name': 'stimuli/Creature7.bmp', 'path': 'stimuli/Creature7.bmp'},
-    {'name': 'stimuli/RedPanda7.bmp', 'path': 'stimuli/RedPanda7.bmp'},
-    {'name': 'stimuli/Heron1.bmp', 'path': 'stimuli/Heron1.bmp'},
-    {'name': 'stimuli/Owl1.bmp', 'path': 'stimuli/Owl1.bmp'},
-    {'name': 'stimuli/Lizard5.bmp', 'path': 'stimuli/Lizard5.bmp'},
-    {'name': 'stimuli/Flamingo6.bmp', 'path': 'stimuli/Flamingo6.bmp'},
-    {'name': 'stimuli/Ibis3.bmp', 'path': 'stimuli/Ibis3.bmp'},
-    {'name': 'stimuli/Tiger1.bmp', 'path': 'stimuli/Tiger1.bmp'},
-    {'name': 'stimuli/Chimp1.bmp', 'path': 'stimuli/Chimp1.bmp'},
-    {'name': 'stimuli/Koala4.bmp', 'path': 'stimuli/Koala4.bmp'},
-    {'name': 'stimuli/Waterbuck2.bmp', 'path': 'stimuli/Waterbuck2.bmp'},
+    {'name': 'stimuli/PrarieDog2.bmp', 'path': 'stimuli/PrarieDog2.bmp'},
+    {'name': 'stimuli/Bongo5.bmp', 'path': 'stimuli/Bongo5.bmp'},
+    {'name': 'stimuli/PolarBear3.bmp', 'path': 'stimuli/PolarBear3.bmp'},
     {'name': 'stimuli/Koala3.bmp', 'path': 'stimuli/Koala3.bmp'},
-    {'name': 'stimuli/Balawat1.bmp', 'path': 'stimuli/Balawat1.bmp'},
-    {'name': 'stimuli/Deer5.bmp', 'path': 'stimuli/Deer5.bmp'},
-    {'name': 'stimuli/Zebra8.bmp', 'path': 'stimuli/Zebra8.bmp'},
-    {'name': 'stimuli/Jackal1.bmp', 'path': 'stimuli/Jackal1.bmp'},
-    {'name': 'stimuli/Rhino11.bmp', 'path': 'stimuli/Rhino11.bmp'},
-    {'name': 'stimuli/Rhino8.bmp', 'path': 'stimuli/Rhino8.bmp'},
+    {'name': 'stimuli/Lizard3.bmp', 'path': 'stimuli/Lizard3.bmp'},
     {'name': 'stimuli/Koala1.bmp', 'path': 'stimuli/Koala1.bmp'},
-    {'name': 'stimuli/Orang3.bmp', 'path': 'stimuli/Orang3.bmp'},
-    {'name': 'stimuli/Giraffe2.bmp', 'path': 'stimuli/Giraffe2.bmp'},
-    {'name': 'stimuli/Flamingo2.bmp', 'path': 'stimuli/Flamingo2.bmp'},
-    {'name': 'stimuli/Tiger6.bmp', 'path': 'stimuli/Tiger6.bmp'},
-    {'name': 'stimuli/Bear6.bmp', 'path': 'stimuli/Bear6.bmp'},
-    {'name': 'stimuli/Leopard12.bmp', 'path': 'stimuli/Leopard12.bmp'},
+    {'name': 'stimuli/Giraffe4.bmp', 'path': 'stimuli/Giraffe4.bmp'},
+    {'name': 'stimuli/Tortoise1.bmp', 'path': 'stimuli/Tortoise1.bmp'},
+    {'name': 'stimuli/Elephant15.bmp', 'path': 'stimuli/Elephant15.bmp'},
+    {'name': 'stimuli/Panda2.bmp', 'path': 'stimuli/Panda2.bmp'},
+    {'name': 'stimuli/Anoa1.bmp', 'path': 'stimuli/Anoa1.bmp'},
+    {'name': 'stimuli/Llama1.bmp', 'path': 'stimuli/Llama1.bmp'},
+    {'name': 'stimuli/Giraffe9.bmp', 'path': 'stimuli/Giraffe9.bmp'},
+    {'name': 'stimuli/Bear1.bmp', 'path': 'stimuli/Bear1.bmp'},
+    {'name': 'stimuli/Puffin1.bmp', 'path': 'stimuli/Puffin1.bmp'},
+    {'name': 'stimuli/Meerkat1.bmp', 'path': 'stimuli/Meerkat1.bmp'},
+    {'name': 'stimuli/Fox4.bmp', 'path': 'stimuli/Fox4.bmp'},
+    {'name': 'stimuli/MapStop_Start1.bmp', 'path': 'stimuli/MapStop_Start1.bmp'},
+    {'name': 'stimuli/Elephant8.bmp', 'path': 'stimuli/Elephant8.bmp'},
+    {'name': 'stimuli/Koala2.bmp', 'path': 'stimuli/Koala2.bmp'},
+    {'name': 'stimuli/Lemur3.bmp', 'path': 'stimuli/Lemur3.bmp'},
+    {'name': 'stimuli/Eland1.bmp', 'path': 'stimuli/Eland1.bmp'},
+    {'name': 'stimuli/Lion2.bmp', 'path': 'stimuli/Lion2.bmp'},
+    {'name': 'stimuli/Orynx2.bmp', 'path': 'stimuli/Orynx2.bmp'},
+    {'name': 'stimuli/Okapi5.bmp', 'path': 'stimuli/Okapi5.bmp'},
+    {'name': 'stimuli/Kangaroo2.bmp', 'path': 'stimuli/Kangaroo2.bmp'},
+    {'name': 'stimuli/Gazelle2.bmp', 'path': 'stimuli/Gazelle2.bmp'},
+    {'name': 'stimuli/SlothBear1.bmp', 'path': 'stimuli/SlothBear1.bmp'},
+    {'name': 'stimuli/Elk1.bmp', 'path': 'stimuli/Elk1.bmp'},
+    {'name': 'stimuli/MapKangaroo.bmp', 'path': 'stimuli/MapKangaroo.bmp'},
+    {'name': 'stimuli/PrarieDog1.bmp', 'path': 'stimuli/PrarieDog1.bmp'},
+    {'name': 'stimuli/Rhino7.bmp', 'path': 'stimuli/Rhino7.bmp'},
+    {'name': 'stimuli/Kudu2.bmp', 'path': 'stimuli/Kudu2.bmp'},
+    {'name': 'stimuli/Meerkat5.bmp', 'path': 'stimuli/Meerkat5.bmp'},
     {'name': 'stimuli/Creature5.bmp', 'path': 'stimuli/Creature5.bmp'},
-    {'name': 'stimuli/Giraffe3.bmp', 'path': 'stimuli/Giraffe3.bmp'},
+    {'name': 'stimuli/Leopard3.bmp', 'path': 'stimuli/Leopard3.bmp'},
+    {'name': 'stimuli/Tiger6.bmp', 'path': 'stimuli/Tiger6.bmp'},
+    {'name': 'stimuli/Creature7.bmp', 'path': 'stimuli/Creature7.bmp'},
+    {'name': 'stimuli/Orang3.bmp', 'path': 'stimuli/Orang3.bmp'},
+    {'name': 'stimuli/Trial5.csv', 'path': 'stimuli/Trial5.csv'},
+    {'name': 'stimuli/RedPanda13.bmp', 'path': 'stimuli/RedPanda13.bmp'},
+    {'name': 'stimuli/Lemur2.bmp', 'path': 'stimuli/Lemur2.bmp'},
+    {'name': 'stimuli/Peacock1.bmp', 'path': 'stimuli/Peacock1.bmp'},
+    {'name': 'stimuli/Emu2.bmp', 'path': 'stimuli/Emu2.bmp'},
+    {'name': 'stimuli/Impala1.bmp', 'path': 'stimuli/Impala1.bmp'},
+    {'name': 'stimuli/Bird1.bmp', 'path': 'stimuli/Bird1.bmp'},
+    {'name': 'stimuli/Elephant1.bmp', 'path': 'stimuli/Elephant1.bmp'},
+    {'name': 'stimuli/RedPanda6.bmp', 'path': 'stimuli/RedPanda6.bmp'},
+    {'name': 'stimuli/Rodent2.bmp', 'path': 'stimuli/Rodent2.bmp'},
+    {'name': 'stimuli/Lion1.bmp', 'path': 'stimuli/Lion1.bmp'},
+    {'name': 'stimuli/Kangaroo1.bmp', 'path': 'stimuli/Kangaroo1.bmp'},
+    {'name': 'stimuli/Rhino3.bmp', 'path': 'stimuli/Rhino3.bmp'},
+    {'name': 'stimuli/RedPanda3.bmp', 'path': 'stimuli/RedPanda3.bmp'},
+    {'name': 'stimuli/PolarBear1.bmp', 'path': 'stimuli/PolarBear1.bmp'},
+    {'name': 'stimuli/Lizard1.bmp', 'path': 'stimuli/Lizard1.bmp'},
+    {'name': 'stimuli/Elephant6.bmp', 'path': 'stimuli/Elephant6.bmp'},
+    {'name': 'stimuli/Panda4.bmp', 'path': 'stimuli/Panda4.bmp'},
+    {'name': 'stimuli/Heron1.bmp', 'path': 'stimuli/Heron1.bmp'},
+    {'name': 'stimuli/RedPanda2.bmp', 'path': 'stimuli/RedPanda2.bmp'},
+    {'name': 'stimuli/Deer3.bmp', 'path': 'stimuli/Deer3.bmp'},
+    {'name': 'stimuli/Hippo1.bmp', 'path': 'stimuli/Hippo1.bmp'},
+    {'name': 'stimuli/Wolf4.bmp', 'path': 'stimuli/Wolf4.bmp'},
+    {'name': 'stimuli/Waterbuck2.bmp', 'path': 'stimuli/Waterbuck2.bmp'},
+    {'name': 'stimuli/Ostrich2.bmp', 'path': 'stimuli/Ostrich2.bmp'},
+    {'name': 'stimuli/Bongo1.bmp', 'path': 'stimuli/Bongo1.bmp'},
+    {'name': 'stimuli/Kangaroo5.bmp', 'path': 'stimuli/Kangaroo5.bmp'},
+    {'name': 'stimuli/MapMonkey.bmp', 'path': 'stimuli/MapMonkey.bmp'},
+    {'name': 'stimuli/Penguin5.bmp', 'path': 'stimuli/Penguin5.bmp'},
     {'name': 'stimuli/Bear9.bmp', 'path': 'stimuli/Bear9.bmp'},
-    {'name': 'stimuli/Deer1.bmp', 'path': 'stimuli/Deer1.bmp'},
-    {'name': 'stimuli/Okapi2.bmp', 'path': 'stimuli/Okapi2.bmp'},
-    {'name': 'stimuli/MapStop3_Monkey.bmp', 'path': 'stimuli/MapStop3_Monkey.bmp'},
+    {'name': 'stimuli/Caracal1.bmp', 'path': 'stimuli/Caracal1.bmp'},
+    {'name': 'stimuli/Meerkat6.bmp', 'path': 'stimuli/Meerkat6.bmp'},
+    {'name': 'stimuli/Creature10.bmp', 'path': 'stimuli/Creature10.bmp'},
+    {'name': 'stimuli/MapStop2_Panda.bmp', 'path': 'stimuli/MapStop2_Panda.bmp'},
+    {'name': 'stimuli/Antelope1.bmp', 'path': 'stimuli/Antelope1.bmp'},
+    {'name': 'stimuli/Flamingo2.bmp', 'path': 'stimuli/Flamingo2.bmp'},
+    {'name': 'stimuli/PolarBear2.bmp', 'path': 'stimuli/PolarBear2.bmp'},
+    {'name': 'stimuli/Giraffe8.bmp', 'path': 'stimuli/Giraffe8.bmp'},
+    {'name': 'stimuli/RedPanda26.bmp', 'path': 'stimuli/RedPanda26.bmp'},
+    {'name': 'stimuli/Orynx1.bmp', 'path': 'stimuli/Orynx1.bmp'},
+    {'name': 'stimuli/Rodent1.bmp', 'path': 'stimuli/Rodent1.bmp'},
+    {'name': 'stimuli/Zebra2.bmp', 'path': 'stimuli/Zebra2.bmp'},
+    {'name': 'stimuli/Ibis3.bmp', 'path': 'stimuli/Ibis3.bmp'},
+    {'name': 'stimuli/Bear3.bmp', 'path': 'stimuli/Bear3.bmp'},
+    {'name': 'stimuli/MapFriends.bmp', 'path': 'stimuli/MapFriends.bmp'},
+    {'name': 'stimuli/Cow2.bmp', 'path': 'stimuli/Cow2.bmp'},
+    {'name': 'stimuli/Bird7.bmp', 'path': 'stimuli/Bird7.bmp'},
+    {'name': 'stimuli/MapStop1_KoalaKove.bmp', 'path': 'stimuli/MapStop1_KoalaKove.bmp'},
+    {'name': 'stimuli/Gazelle1.bmp', 'path': 'stimuli/Gazelle1.bmp'},
+    {'name': 'stimuli/Rhino5.bmp', 'path': 'stimuli/Rhino5.bmp'},
+    {'name': 'stimuli/Creature3.bmp', 'path': 'stimuli/Creature3.bmp'},
+    {'name': 'stimuli/Nilgila2.bmp', 'path': 'stimuli/Nilgila2.bmp'},
+    {'name': 'stimuli/Cow1.bmp', 'path': 'stimuli/Cow1.bmp'},
+    {'name': 'stimuli/RedPanda19.bmp', 'path': 'stimuli/RedPanda19.bmp'},
+    {'name': 'stimuli/MapKoala.bmp', 'path': 'stimuli/MapKoala.bmp'},
     {'name': 'stimuli/Tiger2.bmp', 'path': 'stimuli/Tiger2.bmp'},
-    {'name': 'stimuli/Fox5.bmp', 'path': 'stimuli/Fox5.bmp'},
+    {'name': 'stimuli/Fox11.bmp', 'path': 'stimuli/Fox11.bmp'},
+    {'name': 'stimuli/Bear8.bmp', 'path': 'stimuli/Bear8.bmp'},
+    {'name': 'stimuli/Lemur4.bmp', 'path': 'stimuli/Lemur4.bmp'},
+    {'name': 'stimuli/MapStop3_Monkey.bmp', 'path': 'stimuli/MapStop3_Monkey.bmp'},
+    {'name': 'stimuli/Trial2.csv', 'path': 'stimuli/Trial2.csv'},
+    {'name': 'stimuli/Racoon1.bmp', 'path': 'stimuli/Racoon1.bmp'},
+    {'name': 'stimuli/RedPanda12.bmp', 'path': 'stimuli/RedPanda12.bmp'},
+    {'name': 'stimuli/Bear5.bmp', 'path': 'stimuli/Bear5.bmp'},
+    {'name': 'stimuli/Zebra8.bmp', 'path': 'stimuli/Zebra8.bmp'},
+    {'name': 'stimuli/Deer5.bmp', 'path': 'stimuli/Deer5.bmp'},
+    {'name': 'stimuli/Squirrel2.bmp', 'path': 'stimuli/Squirrel2.bmp'},
+    {'name': 'stimuli/Dingo1.bmp', 'path': 'stimuli/Dingo1.bmp'},
+    {'name': 'stimuli/Orang2.bmp', 'path': 'stimuli/Orang2.bmp'},
+    {'name': 'stimuli/Creature4.bmp', 'path': 'stimuli/Creature4.bmp'},
+    {'name': 'stimuli/Cougar2.bmp', 'path': 'stimuli/Cougar2.bmp'},
+    {'name': 'stimuli/Goat2.bmp', 'path': 'stimuli/Goat2.bmp'},
+    {'name': 'stimuli/Practice.csv', 'path': 'stimuli/Practice.csv'},
+    {'name': 'stimuli/Koala4.bmp', 'path': 'stimuli/Koala4.bmp'},
+    {'name': 'stimuli/Chimp1.bmp', 'path': 'stimuli/Chimp1.bmp'},
+    {'name': 'stimuli/Zebra1.bmp', 'path': 'stimuli/Zebra1.bmp'},
+    {'name': 'stimuli/BlockList.csv', 'path': 'stimuli/BlockList.csv'},
+    {'name': 'stimuli/Onager1.bmp', 'path': 'stimuli/Onager1.bmp'},
+    {'name': 'stimuli/Waterbuck3.bmp', 'path': 'stimuli/Waterbuck3.bmp'},
+    {'name': 'stimuli/Giraffe5.bmp', 'path': 'stimuli/Giraffe5.bmp'},
+    {'name': 'stimuli/Panda11.bmp', 'path': 'stimuli/Panda11.bmp'},
+    {'name': 'stimuli/RedPanda4.bmp', 'path': 'stimuli/RedPanda4.bmp'},
+    {'name': 'stimuli/Giraffe7.bmp', 'path': 'stimuli/Giraffe7.bmp'},
+    {'name': 'stimuli/Ibis2.bmp', 'path': 'stimuli/Ibis2.bmp'},
+    {'name': 'stimuli/Iguana5.bmp', 'path': 'stimuli/Iguana5.bmp'},
+    {'name': 'stimuli/DikDik1.bmp', 'path': 'stimuli/DikDik1.bmp'},
+    {'name': 'stimuli/Tiger1.bmp', 'path': 'stimuli/Tiger1.bmp'},
+    {'name': 'stimuli/Giraffe2.bmp', 'path': 'stimuli/Giraffe2.bmp'},
+    {'name': 'stimuli/Tamarin10.bmp', 'path': 'stimuli/Tamarin10.bmp'},
+    {'name': 'stimuli/Elephant3.bmp', 'path': 'stimuli/Elephant3.bmp'},
+    {'name': 'stimuli/RedPanda10.bmp', 'path': 'stimuli/RedPanda10.bmp'},
+    {'name': 'stimuli/Leopard10.bmp', 'path': 'stimuli/Leopard10.bmp'},
+    {'name': 'stimuli/Leopard2.bmp', 'path': 'stimuli/Leopard2.bmp'},
+    {'name': 'stimuli/Trial6.csv', 'path': 'stimuli/Trial6.csv'},
+    {'name': 'stimuli/Trial8.csv', 'path': 'stimuli/Trial8.csv'},
+    {'name': 'stimuli/RedPanda8.bmp', 'path': 'stimuli/RedPanda8.bmp'},
+    {'name': 'stimuli/Seal1.bmp', 'path': 'stimuli/Seal1.bmp'},
+    {'name': 'stimuli/RedPanda17.bmp', 'path': 'stimuli/RedPanda17.bmp'},
+    {'name': 'stimuli/Gemsbok1.bmp', 'path': 'stimuli/Gemsbok1.bmp'},
+    {'name': 'stimuli/Kangaroo4.bmp', 'path': 'stimuli/Kangaroo4.bmp'},
+    {'name': 'stimuli/Rodent5.bmp', 'path': 'stimuli/Rodent5.bmp'},
+    {'name': 'stimuli/Lechwe1.bmp', 'path': 'stimuli/Lechwe1.bmp'},
+    {'name': 'stimuli/Flamingo6.bmp', 'path': 'stimuli/Flamingo6.bmp'},
+    {'name': 'stimuli/Orang1.bmp', 'path': 'stimuli/Orang1.bmp'},
+    {'name': 'stimuli/Rhino6.bmp', 'path': 'stimuli/Rhino6.bmp'},
+    {'name': 'stimuli/Panda12.bmp', 'path': 'stimuli/Panda12.bmp'},
+    {'name': 'stimuli/Nagila1.bmp', 'path': 'stimuli/Nagila1.bmp'},
+    {'name': 'stimuli/Duiker1.bmp', 'path': 'stimuli/Duiker1.bmp'},
+    {'name': 'stimuli/Meerkat3.bmp', 'path': 'stimuli/Meerkat3.bmp'},
+    {'name': 'stimuli/Trial3.csv', 'path': 'stimuli/Trial3.csv'},
+    {'name': 'stimuli/Rhino10.bmp', 'path': 'stimuli/Rhino10.bmp'},
+    {'name': 'stimuli/Zookeeper1.bmp', 'path': 'stimuli/Zookeeper1.bmp'},
+    {'name': 'stimuli/RedPanda14.bmp', 'path': 'stimuli/RedPanda14.bmp'},
+    {'name': 'stimuli/Panda10.bmp', 'path': 'stimuli/Panda10.bmp'},
+    {'name': 'stimuli/WhiteLion1.bmp', 'path': 'stimuli/WhiteLion1.bmp'},
+    {'name': 'stimuli/RedPanda25.bmp', 'path': 'stimuli/RedPanda25.bmp'},
+    {'name': 'stimuli/Monkey6.bmp', 'path': 'stimuli/Monkey6.bmp'},
+    {'name': 'stimuli/Parrot10.bmp', 'path': 'stimuli/Parrot10.bmp'},
+    {'name': 'stimuli/Kangaroo6.bmp', 'path': 'stimuli/Kangaroo6.bmp'},
+    {'name': 'stimuli/Lemur6.bmp', 'path': 'stimuli/Lemur6.bmp'},
+    {'name': 'stimuli/RedPanda7.bmp', 'path': 'stimuli/RedPanda7.bmp'},
+    {'name': 'stimuli/Panda3.bmp', 'path': 'stimuli/Panda3.bmp'},
+    {'name': 'stimuli/Bird6.bmp', 'path': 'stimuli/Bird6.bmp'},
     {'name': 'stimuli/Wolf1.bmp', 'path': 'stimuli/Wolf1.bmp'},
-    {'name': 'stimuli/Bird1.bmp', 'path': 'stimuli/Bird1.bmp'}
+    {'name': 'stimuli/Balawat1.bmp', 'path': 'stimuli/Balawat1.bmp'},
+    {'name': 'stimuli/Deer2.bmp', 'path': 'stimuli/Deer2.bmp'},
+    {'name': 'stimuli/Guar1.bmp', 'path': 'stimuli/Guar1.bmp'},
+    {'name': 'stimuli/Elephant7.bmp', 'path': 'stimuli/Elephant7.bmp'},
+    {'name': 'stimuli/Buffalo2.bmp', 'path': 'stimuli/Buffalo2.bmp'},
+    {'name': 'stimuli/Lion9.bmp', 'path': 'stimuli/Lion9.bmp'},
+    {'name': 'stimuli/Moose1.bmp', 'path': 'stimuli/Moose1.bmp'},
+    {'name': 'stimuli/Cheetah1.bmp', 'path': 'stimuli/Cheetah1.bmp'},
+    {'name': 'stimuli/Koala11.bmp', 'path': 'stimuli/Koala11.bmp'},
+    {'name': 'stimuli/Monkey7.bmp', 'path': 'stimuli/Monkey7.bmp'},
+    {'name': 'stimuli/Fox5.bmp', 'path': 'stimuli/Fox5.bmp'},
+    {'name': 'stimuli/Jackal1.bmp', 'path': 'stimuli/Jackal1.bmp'},
+    {'name': 'stimuli/Bird8.bmp', 'path': 'stimuli/Bird8.bmp'},
+    {'name': 'stimuli/Manul2.bmp', 'path': 'stimuli/Manul2.bmp'},
+    {'name': 'stimuli/Giraffe1.bmp', 'path': 'stimuli/Giraffe1.bmp'},
+    {'name': 'stimuli/Toucan1.bmp', 'path': 'stimuli/Toucan1.bmp'},
+    {'name': 'stimuli/Bear4.bmp', 'path': 'stimuli/Bear4.bmp'},
+    {'name': 'stimuli/Zebra4.bmp', 'path': 'stimuli/Zebra4.bmp'},
+    {'name': 'stimuli/Creature1.bmp', 'path': 'stimuli/Creature1.bmp'},
+    {'name': 'stimuli/Hyena2.bmp', 'path': 'stimuli/Hyena2.bmp'},
+    {'name': 'stimuli/Sloth1.bmp', 'path': 'stimuli/Sloth1.bmp'},
+    {'name': 'stimuli/Trial7.csv', 'path': 'stimuli/Trial7.csv'},
+    {'name': 'stimuli/Rhino1.bmp', 'path': 'stimuli/Rhino1.bmp'},
+    {'name': 'stimuli/WhiteTiger1.bmp', 'path': 'stimuli/WhiteTiger1.bmp'},
+    {'name': 'stimuli/Puma1.bmp', 'path': 'stimuli/Puma1.bmp'},
+    {'name': 'stimuli/RedPanda20.bmp', 'path': 'stimuli/RedPanda20.bmp'},
+    {'name': 'stimuli/Okapi1.bmp', 'path': 'stimuli/Okapi1.bmp'},
+    {'name': 'stimuli/Buffalo3.bmp', 'path': 'stimuli/Buffalo3.bmp'},
+    {'name': 'stimuli/Lizard5.bmp', 'path': 'stimuli/Lizard5.bmp'},
+    {'name': 'stimuli/Squirrel5.bmp', 'path': 'stimuli/Squirrel5.bmp'},
+    {'name': 'stimuli/Elephant4.bmp', 'path': 'stimuli/Elephant4.bmp'},
+    {'name': 'stimuli/Cheetah2.bmp', 'path': 'stimuli/Cheetah2.bmp'},
+    {'name': 'stimuli/Meerkat4.bmp', 'path': 'stimuli/Meerkat4.bmp'},
+    {'name': 'stimuli/Llama2.bmp', 'path': 'stimuli/Llama2.bmp'},
+    {'name': 'stimuli/Koala5.bmp', 'path': 'stimuli/Koala5.bmp'},
+    {'name': 'stimuli/Rabbit1.bmp', 'path': 'stimuli/Rabbit1.bmp'},
+    {'name': 'stimuli/Bird5.bmp', 'path': 'stimuli/Bird5.bmp'},
+    {'name': 'stimuli/Elephant5.bmp', 'path': 'stimuli/Elephant5.bmp'},
+    {'name': 'stimuli/Bateng1.bmp', 'path': 'stimuli/Bateng1.bmp'},
+    {'name': 'stimuli/Rhino12.bmp', 'path': 'stimuli/Rhino12.bmp'},
+    {'name': 'stimuli/Lioness1.bmp', 'path': 'stimuli/Lioness1.bmp'},
+    {'name': 'stimuli/Gorilla3.bmp', 'path': 'stimuli/Gorilla3.bmp'},
+    {'name': 'stimuli/Monkey2.bmp', 'path': 'stimuli/Monkey2.bmp'},
+    {'name': 'stimuli/Sloth2.bmp', 'path': 'stimuli/Sloth2.bmp'},
+    {'name': 'stimuli/MapStop4_Kangaroo.bmp', 'path': 'stimuli/MapStop4_Kangaroo.bmp'},
+    {'name': 'stimuli/Trial1.csv', 'path': 'stimuli/Trial1.csv'},
+    {'name': 'stimuli/Buffalo1.bmp', 'path': 'stimuli/Buffalo1.bmp'},
+    {'name': 'stimuli/Kudu1.bmp', 'path': 'stimuli/Kudu1.bmp'},
+    {'name': 'stimuli/Fox1.bmp', 'path': 'stimuli/Fox1.bmp'},
+    {'name': 'stimuli/Ostrich1.bmp', 'path': 'stimuli/Ostrich1.bmp'},
+    {'name': 'stimuli/Leopard12.bmp', 'path': 'stimuli/Leopard12.bmp'},
+    {'name': 'stimuli/Lizard4.bmp', 'path': 'stimuli/Lizard4.bmp'},
+    {'name': 'stimuli/Addax1.bmp', 'path': 'stimuli/Addax1.bmp'},
+    {'name': 'stimuli/Okapi3.bmp', 'path': 'stimuli/Okapi3.bmp'},
+    {'name': 'stimuli/Kangaroo3.bmp', 'path': 'stimuli/Kangaroo3.bmp'},
+    {'name': 'stimuli/Flamingo4.bmp', 'path': 'stimuli/Flamingo4.bmp'},
+    {'name': 'stimuli/Mouse1.bmp', 'path': 'stimuli/Mouse1.bmp'},
+    {'name': 'stimuli/Rhino4.bmp', 'path': 'stimuli/Rhino4.bmp'},
+    {'name': 'stimuli/Koala8.bmp', 'path': 'stimuli/Koala8.bmp'},
+    {'name': 'stimuli/Impala2.bmp', 'path': 'stimuli/Impala2.bmp'},
+    {'name': 'stimuli/Fox10.bmp', 'path': 'stimuli/Fox10.bmp'},
+    {'name': 'stimuli/Meerkat21.bmp', 'path': 'stimuli/Meerkat21.bmp'},
+    {'name': 'stimuli/Lion3.bmp', 'path': 'stimuli/Lion3.bmp'},
+    {'name': 'stimuli/Bear6.bmp', 'path': 'stimuli/Bear6.bmp'},
+    {'name': 'stimuli/Flamingo1.bmp', 'path': 'stimuli/Flamingo1.bmp'},
+    {'name': 'stimuli/Gorilla2.bmp', 'path': 'stimuli/Gorilla2.bmp'},
+    {'name': 'stimuli/WildDog1.bmp', 'path': 'stimuli/WildDog1.bmp'},
+    {'name': 'stimuli/Fox3.bmp', 'path': 'stimuli/Fox3.bmp'},
+    {'name': 'stimuli/ArcticFox1.bmp', 'path': 'stimuli/ArcticFox1.bmp'},
+    {'name': 'stimuli/Meerkat20.bmp', 'path': 'stimuli/Meerkat20.bmp'},
+    {'name': 'stimuli/Trial4.csv', 'path': 'stimuli/Trial4.csv'},
+    {'name': 'stimuli/Giraffe10.bmp', 'path': 'stimuli/Giraffe10.bmp'},
+    {'name': 'stimuli/MapPanda.bmp', 'path': 'stimuli/MapPanda.bmp'},
+    {'name': 'stimuli/Lemur1.bmp', 'path': 'stimuli/Lemur1.bmp'},
+    {'name': 'stimuli/Flamingo5.bmp', 'path': 'stimuli/Flamingo5.bmp'},
+    {'name': 'stimuli/Snowcat1.bmp', 'path': 'stimuli/Snowcat1.bmp'},
+    {'name': 'stimuli/Squirrel1.bmp', 'path': 'stimuli/Squirrel1.bmp'},
+    {'name': 'stimuli/Rhino11.bmp', 'path': 'stimuli/Rhino11.bmp'},
+    {'name': 'stimuli/SeaLion1.bmp', 'path': 'stimuli/SeaLion1.bmp'},
+    {'name': 'stimuli/Bird2.bmp', 'path': 'stimuli/Bird2.bmp'},
+    {'name': 'stimuli/Lynx1.bmp', 'path': 'stimuli/Lynx1.bmp'},
+    {'name': 'stimuli/Lion5.bmp', 'path': 'stimuli/Lion5.bmp'},
+    {'name': 'stimuli/Giraffe3.bmp', 'path': 'stimuli/Giraffe3.bmp'},
+    {'name': 'stimuli/Cheetah4.bmp', 'path': 'stimuli/Cheetah4.bmp'},
+    {'name': 'stimuli/Lion8.bmp', 'path': 'stimuli/Lion8.bmp'},
+    {'name': 'stimuli/Squirrel4.bmp', 'path': 'stimuli/Squirrel4.bmp'},
+    {'name': 'stimuli/Lion10.bmp', 'path': 'stimuli/Lion10.bmp'},
+    {'name': 'stimuli/Tiger3.bmp', 'path': 'stimuli/Tiger3.bmp'},
+    {'name': 'stimuli/Monkey3.bmp', 'path': 'stimuli/Monkey3.bmp'},
+    {'name': 'stimuli/Kangaroo7.bmp', 'path': 'stimuli/Kangaroo7.bmp'},
+    {'name': 'stimuli/RedPanda27.bmp', 'path': 'stimuli/RedPanda27.bmp'},
+    {'name': 'stimuli/MapStop5_ZooExit.bmp', 'path': 'stimuli/MapStop5_ZooExit.bmp'},
+    {'name': 'stimuli/Gorilla1.bmp', 'path': 'stimuli/Gorilla1.bmp'},
+    {'name': 'stimuli/Deer1.bmp', 'path': 'stimuli/Deer1.bmp'},
+    {'name': 'stimuli/Peacock2.bmp', 'path': 'stimuli/Peacock2.bmp'},
+    {'name': 'stimuli/Elephant9.bmp', 'path': 'stimuli/Elephant9.bmp'},
+    {'name': 'stimuli/Leopard13.bmp', 'path': 'stimuli/Leopard13.bmp'},
+    {'name': 'stimuli/Peacock3.bmp', 'path': 'stimuli/Peacock3.bmp'},
+    {'name': 'stimuli/Sable1.bmp', 'path': 'stimuli/Sable1.bmp'},
+    {'name': 'stimuli/Turtle1.bmp', 'path': 'stimuli/Turtle1.bmp'},
+    {'name': 'stimuli/Okapi2.bmp', 'path': 'stimuli/Okapi2.bmp'},
+    {'name': 'stimuli/Squirrel10.bmp', 'path': 'stimuli/Squirrel10.bmp'},
+    {'name': 'stimuli/Tiger10.bmp', 'path': 'stimuli/Tiger10.bmp'},
+    {'name': 'stimuli/Owl1.bmp', 'path': 'stimuli/Owl1.bmp'},
+    {'name': 'stimuli/Bear2.bmp', 'path': 'stimuli/Bear2.bmp'},
+    {'name': 'stimuli/Rhino9.bmp', 'path': 'stimuli/Rhino9.bmp'},
+    {'name': 'stimuli/Rhino8.bmp', 'path': 'stimuli/Rhino8.bmp'},
+    {'name': 'stimuli/Squirrel3.bmp', 'path': 'stimuli/Squirrel3.bmp'}
   ]
 });
 
-psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.INFO);
+psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.ERROR);
 
 
 var frameDur;
@@ -450,12 +450,11 @@ var paccnogo;
 var Fxation;
 var Stim;
 var Respond;
-var blankWindowClock;
-var response_window;
+var practiceWindowClock;
+var practice_window;
 var PracticeOutClock;
 var image;
 var OutPrac;
-var psummary_text;
 var key_resp_11;
 var IntroClock;
 var intro;
@@ -466,10 +465,11 @@ var numnogo;
 var Fixation2;
 var Stim2;
 var key_resp;
+var blankWindowClock;
+var response_window;
 var OutBlock1Clock;
 var image_2;
 var Feedback_text;
-var summary_text;
 var key_resp_15;
 var ZooMap2Clock;
 var image_7;
@@ -827,9 +827,9 @@ function experimentInit() {
   });
   Respond = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
 
-  // Initialize components for Routine "blankWindow"
-  blankWindowClock = new util.Clock();
-  response_window = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  // Initialize components for Routine "practiceWindow"
+  practiceWindowClock = new util.Clock();
+  practice_window = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
 
   // Initialize components for Routine "PracticeOut"
   PracticeOutClock = new util.Clock();
@@ -851,17 +851,6 @@ function experimentInit() {
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0
-  });
-
-  psummary_text = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'psummary_text',
-    text: 'default text',
-    font: 'Arial',
-    units: undefined,
-    pos: [0, (- 0.8)], height: 0.1,  wrapWidth: 1.8, ori: 0,
-    color: new util.Color('white'),  opacity: 1,
-    depth: -3.0
   });
 
   key_resp_11 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
@@ -956,17 +945,6 @@ function experimentInit() {
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0
-  });
-
-  summary_text = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'summary_text',
-    text: 'default text',
-    font: 'Arial',
-    units: undefined,
-    pos: [0, (- 0.8)], height: 0.1,  wrapWidth: 1, ori: 0,
-    color: new util.Color('white'),  opacity: 1,
-    depth: -3.0
   });
 
   key_resp_15 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
@@ -2212,9 +2190,9 @@ function PracticeLoopBegin(PracticeLoopScheduler) {
     PracticeLoopScheduler.add(PracRoutineBegin(snapshot));
     PracticeLoopScheduler.add(PracRoutineEachFrame(snapshot));
     PracticeLoopScheduler.add(PracRoutineEnd(snapshot));
-    PracticeLoopScheduler.add(blankWindowRoutineBegin(snapshot));
-    PracticeLoopScheduler.add(blankWindowRoutineEachFrame(snapshot));
-    PracticeLoopScheduler.add(blankWindowRoutineEnd(snapshot));
+    PracticeLoopScheduler.add(practiceWindowRoutineBegin(snapshot));
+    PracticeLoopScheduler.add(practiceWindowRoutineEachFrame(snapshot));
+    PracticeLoopScheduler.add(practiceWindowRoutineEnd(snapshot));
     PracticeLoopScheduler.add(endLoopIteration(PracticeLoopScheduler, snapshot));
   }
 
@@ -2518,25 +2496,25 @@ function PracRoutineEnd(snapshot) {
 }
 
 
-var _response_window_allKeys;
-var blankWindowComponents;
-function blankWindowRoutineBegin(snapshot) {
+var _practice_window_allKeys;
+var practiceWindowComponents;
+function practiceWindowRoutineBegin(snapshot) {
   return function () {
-    //------Prepare to start Routine 'blankWindow'-------
+    //------Prepare to start Routine 'practiceWindow'-------
     t = 0;
-    blankWindowClock.reset(); // clock
+    practiceWindowClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     routineTimer.add(0.500000);
     // update component parameters for each repeat
-    response_window.keys = undefined;
-    response_window.rt = undefined;
-    _response_window_allKeys = [];
+    practice_window.keys = undefined;
+    practice_window.rt = undefined;
+    _practice_window_allKeys = [];
     // keep track of which components have finished
-    blankWindowComponents = [];
-    blankWindowComponents.push(response_window);
+    practiceWindowComponents = [];
+    practiceWindowComponents.push(practice_window);
 
-    for (const thisComponent of blankWindowComponents)
+    for (const thisComponent of practiceWindowComponents)
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
     return Scheduler.Event.NEXT;
@@ -2544,37 +2522,37 @@ function blankWindowRoutineBegin(snapshot) {
 }
 
 
-function blankWindowRoutineEachFrame(snapshot) {
+function practiceWindowRoutineEachFrame(snapshot) {
   return function () {
-    //------Loop for each frame of Routine 'blankWindow'-------
+    //------Loop for each frame of Routine 'practiceWindow'-------
     // get current time
-    t = blankWindowClock.getTime();
+    t = practiceWindowClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
 
-    // *response_window* updates
-    if (t >= 0.0 && response_window.status === PsychoJS.Status.NOT_STARTED) {
+    // *practice_window* updates
+    if (t >= 0.0 && practice_window.status === PsychoJS.Status.NOT_STARTED) {
       // keep track of start time/frame for later
-      response_window.tStart = t;  // (not accounting for frame time here)
-      response_window.frameNStart = frameN;  // exact frame index
+      practice_window.tStart = t;  // (not accounting for frame time here)
+      practice_window.frameNStart = frameN;  // exact frame index
 
       // keyboard checking is just starting
-      psychoJS.window.callOnFlip(function() { response_window.clock.reset(); });  // t=0 on next screen flip
-      psychoJS.window.callOnFlip(function() { response_window.start(); }); // start on screen flip
-      psychoJS.window.callOnFlip(function() { response_window.clearEvents(); });
+      psychoJS.window.callOnFlip(function() { practice_window.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { practice_window.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { practice_window.clearEvents(); });
     }
 
     frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if ((response_window.status === PsychoJS.Status.STARTED || response_window.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
-      response_window.status = PsychoJS.Status.FINISHED;
+    if ((practice_window.status === PsychoJS.Status.STARTED || practice_window.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
+      practice_window.status = PsychoJS.Status.FINISHED;
   }
 
-    if (response_window.status === PsychoJS.Status.STARTED) {
-      let theseKeys = response_window.getKeys({keyList: ['1', '5', 'space'], waitRelease: false});
-      _response_window_allKeys = _response_window_allKeys.concat(theseKeys);
-      if (_response_window_allKeys.length > 0) {
-        response_window.keys = _response_window_allKeys[0].name;  // just the first key pressed
-        response_window.rt = _response_window_allKeys[0].rt;
+    if (practice_window.status === PsychoJS.Status.STARTED) {
+      let theseKeys = practice_window.getKeys({keyList: ['1', '5', 'space'], waitRelease: false});
+      _practice_window_allKeys = _practice_window_allKeys.concat(theseKeys);
+      if (_practice_window_allKeys.length > 0) {
+        practice_window.keys = _practice_window_allKeys[0].name;  // just the first key pressed
+        practice_window.rt = _practice_window_allKeys[0].rt;
       }
     }
 
@@ -2589,7 +2567,7 @@ function blankWindowRoutineEachFrame(snapshot) {
     }
 
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of blankWindowComponents)
+    for (const thisComponent of practiceWindowComponents)
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
         break;
@@ -2605,20 +2583,20 @@ function blankWindowRoutineEachFrame(snapshot) {
 }
 
 
-function blankWindowRoutineEnd(snapshot) {
+function practiceWindowRoutineEnd(snapshot) {
   return function () {
-    //------Ending Routine 'blankWindow'-------
-    for (const thisComponent of blankWindowComponents) {
+    //------Ending Routine 'practiceWindow'-------
+    for (const thisComponent of practiceWindowComponents) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
     }
-    psychoJS.experiment.addData('response_window.keys', response_window.keys);
-    if (typeof response_window.keys !== 'undefined') {  // we had a response
-        psychoJS.experiment.addData('response_window.rt', response_window.rt);
+    psychoJS.experiment.addData('practice_window.keys', practice_window.keys);
+    if (typeof practice_window.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('practice_window.rt', practice_window.rt);
         }
 
-    response_window.stop();
+    practice_window.stop();
     return Scheduler.Event.NEXT;
   };
 }
@@ -2672,7 +2650,6 @@ function PracticeOutRoutineBegin(snapshot) {
     }
     //[accnogo]/[numnogo] [acc]/[num] [meanrt]
     pmsg = String(parseInt(paccnogo))+"/"+String(parseInt(pnumnogo))+" "+String(parseInt(pacc))+"/"+String(parseInt(pnum))+" "+String(parseFloat(pmeanRt).toFixed(2));
-    psummary_text.setText(pmsg);
     key_resp_11.keys = undefined;
     key_resp_11.rt = undefined;
     _key_resp_11_allKeys = [];
@@ -2680,7 +2657,6 @@ function PracticeOutRoutineBegin(snapshot) {
     PracticeOutComponents = [];
     PracticeOutComponents.push(image);
     PracticeOutComponents.push(OutPrac);
-    PracticeOutComponents.push(psummary_text);
     PracticeOutComponents.push(key_resp_11);
 
     for (const thisComponent of PracticeOutComponents)
@@ -2716,16 +2692,6 @@ function PracticeOutRoutineEachFrame(snapshot) {
       OutPrac.frameNStart = frameN;  // exact frame index
 
       OutPrac.setAutoDraw(true);
-    }
-
-
-    // *psummary_text* updates
-    if (t >= 0.0 && psummary_text.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      psummary_text.tStart = t;  // (not accounting for frame time here)
-      psummary_text.frameNStart = frameN;  // exact frame index
-
-      psummary_text.setAutoDraw(true);
     }
 
 
@@ -2907,13 +2873,6 @@ function IntroRoutineEnd(snapshot) {
         thisComponent.setAutoDraw(false);
       }
     }
-    psychoJS.experiment.addData('key_resp_12.keys', key_resp_12.keys);
-    if (typeof key_resp_12.keys !== 'undefined') {  // we had a response
-        psychoJS.experiment.addData('key_resp_12.rt', key_resp_12.rt);
-        routineTimer.reset();
-        }
-
-    key_resp_12.stop();
     return Scheduler.Event.NEXT;
   };
 }
@@ -3070,6 +3029,8 @@ function BlockListRoutineEnd(snapshot) {
             accnogo = (accnogo + 1);
         }
     }
+    thisExp.addData("key_resp_rt", key_resp.rt)
+    thisExp.addData("key_resp_corr", key_resp.corr)
     thisExp.addData("numnogo", numnogo);
     thisExp.addData("accnogo", accnogo);
     // was no response the correct answer?!
@@ -3089,6 +3050,137 @@ function BlockListRoutineEnd(snapshot) {
         }
 
     key_resp.stop();
+    return Scheduler.Event.NEXT;
+  };
+}
+
+
+var _response_window_allKeys;
+var blankWindowComponents;
+function blankWindowRoutineBegin(snapshot) {
+  return function () {
+    //------Prepare to start Routine 'blankWindow'-------
+    t = 0;
+    blankWindowClock.reset(); // clock
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    routineTimer.add(0.500000);
+    // update component parameters for each repeat
+    response_window.keys = undefined;
+    response_window.rt = undefined;
+    _response_window_allKeys = [];
+    // keep track of which components have finished
+    blankWindowComponents = [];
+    blankWindowComponents.push(response_window);
+
+    for (const thisComponent of blankWindowComponents)
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function blankWindowRoutineEachFrame(snapshot) {
+  return function () {
+    //------Loop for each frame of Routine 'blankWindow'-------
+    // get current time
+    t = blankWindowClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+
+    // *response_window* updates
+    if (t >= 0.0 && response_window.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      response_window.tStart = t;  // (not accounting for frame time here)
+      response_window.frameNStart = frameN;  // exact frame index
+
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { response_window.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { response_window.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { response_window.clearEvents(); });
+    }
+
+    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if ((response_window.status === PsychoJS.Status.STARTED || response_window.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
+      response_window.status = PsychoJS.Status.FINISHED;
+  }
+
+    if (response_window.status === PsychoJS.Status.STARTED) {
+      let theseKeys = response_window.getKeys({keyList: ['1', '5', 'space'], waitRelease: false});
+      _response_window_allKeys = _response_window_allKeys.concat(theseKeys);
+      if (_response_window_allKeys.length > 0) {
+        response_window.keys = _response_window_allKeys[0].name;  // just the first key pressed
+        response_window.rt = _response_window_allKeys[0].rt;
+        // was this correct?
+        if (response_window.keys == correctKey) {
+            response_window.corr = 1;
+        } else {
+            response_window.corr = 0;
+        }
+      }
+    }
+
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+
+    continueRoutine = false;  // reverts to True if at least one component still running
+    for (const thisComponent of blankWindowComponents)
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+        break;
+      }
+
+    // refresh the screen if continuing
+    if (continueRoutine && routineTimer.getTime() > 0) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function blankWindowRoutineEnd(snapshot) {
+  return function () {
+    //------Ending Routine 'blankWindow'-------
+    for (const thisComponent of blankWindowComponents) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    }
+    if (response_window.keys) {
+        thisExp.addData("key_resp_rt", (response_window.rt + 0.75));
+        thisExp.addData("key_resp_corr", response_window.corr);
+        if ((gonogo === 102)) {
+            accnogo = (accnogo - 1);
+            thisExp.addData("accnogo", accnogo);
+        }
+    }
+
+    // was no response the correct answer?!
+    if (response_window.keys === undefined) {
+      if (['None','none',undefined].includes(correctKey)) {
+         response_window.corr = 1;  // correct non-response
+      } else {
+         response_window.corr = 0;  // failed to respond (incorrectly)
+      }
+    }
+    // store data for thisExp (ExperimentHandler)
+    psychoJS.experiment.addData('response_window.keys', response_window.keys);
+    psychoJS.experiment.addData('response_window.corr', response_window.corr);
+    if (typeof response_window.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('response_window.rt', response_window.rt);
+        }
+
+    response_window.stop();
     return Scheduler.Event.NEXT;
   };
 }
@@ -3150,7 +3242,6 @@ function OutBlock1RoutineBegin(snapshot) {
     numnogo = 0;
     image_2.setImage(OutBlockStim);
     Feedback_text.setText(Feedback);
-    summary_text.setText(msg);
     key_resp_15.keys = undefined;
     key_resp_15.rt = undefined;
     _key_resp_15_allKeys = [];
@@ -3158,7 +3249,6 @@ function OutBlock1RoutineBegin(snapshot) {
     OutBlock1Components = [];
     OutBlock1Components.push(image_2);
     OutBlock1Components.push(Feedback_text);
-    OutBlock1Components.push(summary_text);
     OutBlock1Components.push(key_resp_15);
 
     for (const thisComponent of OutBlock1Components)
@@ -3194,16 +3284,6 @@ function OutBlock1RoutineEachFrame(snapshot) {
       Feedback_text.frameNStart = frameN;  // exact frame index
 
       Feedback_text.setAutoDraw(true);
-    }
-
-
-    // *summary_text* updates
-    if (t >= 0.0 && summary_text.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      summary_text.tStart = t;  // (not accounting for frame time here)
-      summary_text.frameNStart = frameN;  // exact frame index
-
-      summary_text.setAutoDraw(true);
     }
 
 
@@ -3420,8 +3500,9 @@ function OutRoutineBegin(snapshot) {
     OutClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
+    routineTimer.add(4.000000);
     // update component parameters for each repeat
-    text_18.setText('Congratulations! All of the animals are back in their cages! You did a great job!');
+    text_18.setText('Congratulations! All of the animals are back in their cages! You did a great job!\n\nPlease wait while we save the results...');
     key_resp_14.keys = undefined;
     key_resp_14.rt = undefined;
     _key_resp_14_allKeys = [];
@@ -3455,6 +3536,10 @@ function OutRoutineEachFrame(snapshot) {
       text_18.setAutoDraw(true);
     }
 
+    frameRemains = 0.0 + 4 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if ((text_18.status === PsychoJS.Status.STARTED || text_18.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
+      text_18.setAutoDraw(false);
+    }
 
     // *key_resp_14* updates
     if (t >= 0.0 && key_resp_14.status === PsychoJS.Status.NOT_STARTED) {
@@ -3467,6 +3552,11 @@ function OutRoutineEachFrame(snapshot) {
       psychoJS.window.callOnFlip(function() { key_resp_14.start(); }); // start on screen flip
       psychoJS.window.callOnFlip(function() { key_resp_14.clearEvents(); });
     }
+
+    frameRemains = 0.0 + 4 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if ((key_resp_14.status === PsychoJS.Status.STARTED || key_resp_14.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
+      key_resp_14.status = PsychoJS.Status.FINISHED;
+  }
 
     if (key_resp_14.status === PsychoJS.Status.STARTED) {
       let theseKeys = key_resp_14.getKeys({keyList: ['space', 'return', 'num_enter'], waitRelease: false});
@@ -3497,7 +3587,7 @@ function OutRoutineEachFrame(snapshot) {
       }
 
     // refresh the screen if continuing
-    if (continueRoutine) {
+    if (continueRoutine && routineTimer.getTime() > 0) {
       return Scheduler.Event.FLIP_REPEAT;
     } else {
       return Scheduler.Event.NEXT;
@@ -3514,9 +3604,6 @@ function OutRoutineEnd(snapshot) {
         thisComponent.setAutoDraw(false);
       }
     }
-    // the Routine "Out" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset();
-
     return Scheduler.Event.NEXT;
   };
 }
@@ -3566,6 +3653,8 @@ function quitPsychoJS(message, isCompleted) {
 
 
   document.body.style.cursor='auto';
+
+
 
 
 
