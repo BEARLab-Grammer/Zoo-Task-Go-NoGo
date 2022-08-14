@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on July 20, 2022, at 12:27
+    on August 13, 2022, at 16:32
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1821,7 +1821,12 @@ continueRoutine = True
 # update component parameters for each repeat
 pacc = Practice.data['Respond.corr'].sum()
 pnum = Practice.nTotal
-pmeanRt = Practice.data['Respond.rt'].mean()
+
+try:
+    pmeanRt = Practice.data['Respond.rt'].mean()
+except:
+    print("no responses recorded!")
+    pmeanRt = 0
 
 if pnumnogo > 0:
     if (paccnogo/pnumnogo)*100 >= 90:
@@ -2461,7 +2466,12 @@ for thisBlock in blocks:
     # update component parameters for each repeat
     acc = trials.data['key_resp.corr'].sum()
     num = trials.nTotal
-    meanRt = trials.data['key_resp.rt'].mean()
+    
+    try:
+        meanRt = trials.data['key_resp.rt'].mean()
+    except:
+        print("no responses recorded!")
+        meanRt = 0
     
     if numnogo > 0:
         if (accnogo/numnogo)*100 >= 90:
